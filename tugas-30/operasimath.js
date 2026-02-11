@@ -30,35 +30,36 @@ console.log(hasilNyamukAngsa);
 // karena belalang dan nyamuk itu string jadi di konversi dulu ke number baru di jumlahkan dengan angsa
 
 // soal 4  
-let hargaBukuFiksi = 5000;
-let hargaBukuNonFiksi = 7000;
-let hargaPena = 2000;
+let bukuFiksi = 5000;
+let bukuNonFiksi = 7000
+let pena = 2000
 
-let totalPerItemOne = hargaBukuFiksi * 5;
-let totalPerItemTwo = hargaBukuNonFiksi * 3; 
-let totalPerItemThree = hargaPena * 2;
-let totalHarga = totalPerItemOne + totalPerItemTwo + totalPerItemThree;
+let itemFiksi = bukuFiksi * 5
+let itemNonFiksi = bukuNonFiksi * 3
+let itemPena = pena * 2
 
-console.log('totoal harga yang di keluarkan aisah' + ' ' + totalHarga);
+let totalYangHarusDiBayarAisha = itemFiksi + itemNonFiksi + itemPena
+console.log(totalYangHarusDiBayarAisha);
 // jadi total yang harus di bayar aisha adalah 50000
 
 //soal 5
-let penjumlahan1 = 5 + 3 * 2;
+let penjumlahan1 = 5 + 3 * 2 ;
 let penjumlahan2 = (5 + 3) * 2;
 console.log(penjumlahan1);
-//karena yang di kerjakan dari kanan dulu jadi 3 x 2 = 6 + 5 = 11
+// hasilnya adalah 11 
+// dikarnakan dikerjakan dari perkalian terlebih dahulu baru yang lainnya
 console.log(penjumlahan2);
-//karena yang di kerjakan yang di dalam kurung dulu jadi 5 + 3 = 8 x 2 = 16
+// hasilnya adalah 16
+// dikarnakan di dalam kurung di kerjakan terlebih dahulu baru di kali 2
 
 //soal 6
 let kresek = 4;
 let kotak = 6;
-let ember = 5 + (kresek = kotak);
-
-console.log(kresek);
-console.log(kotak);
+let ember = 5 + (kresek = kotak)
 console.log(ember);
-//karena disitu di tulis kresek = kotak jadi value kresek di ganti dengan value kotak kemudian di tambah 5 = 11
+// hasilnya adalah 11
+// kenapa hasilnya 11 ? karna kresek kan sama dengan kotak jadi kotak itu hasilnya 6 karna nilai kresek itu diperbarui menjadi nilai kotak yaitu 6, habis itu ditambah 5 yang hasilnya 11.
+
 
 //soal 7
 let x, y, z;
@@ -79,15 +80,12 @@ console.log(money);
 //soal 9
 let J = 5;
 J++;
-
-console.log(J);
-//hasil j 6 karena arti dari ++ adalah di tambah 1
-
 let K = 8;
 K--;
-
+console.log(J)
 console.log(K);
-//hasil k 7 karena arti dari -- adalah di kurang 1
+// hasil dari variabel j itu adalah 6 karna ++ itu menambahkan nilai, yaitu 1.
+// hasil dari variabel k itu adalah 7 karna -- itu mengurangi nilai, yaitu 1.
 
 // soal 10
 let room = 'hafs';
