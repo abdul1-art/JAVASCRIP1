@@ -20,7 +20,7 @@
     <input type="text" id="userGender" placeholder="Masukkan jenis kelamin" />
     <button
       id="showBtn"
-      onclick="console.log(document.getElementById('userGender').value)"
+      onclick="console.log(document.getElementById('resultBox').innerText += 'jenis kelamin')"
     >
       Tampilkan
     </button>
@@ -32,7 +32,7 @@
     <hr />
 
     <div id="articleContainer"></div>
-    <button id="addParagraphBtn" onclick="console.log(document.getElementById('articleContainer').innerText += '<p>Paragraf baru </p>');
+    <button id="addParagraphBtn" onclick="console.log(document.getElementById('articleContainer').innerText += 'Paragraf baru');
     ">Tambah Paragraf</button>
 
     

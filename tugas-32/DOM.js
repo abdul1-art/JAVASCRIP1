@@ -13,10 +13,10 @@ console.log(student.textContent);
 student.textContent = "Abdul";
 console.log(student.textContent);
 
-// soal 2
+// soal 2. tambah catatan belajar
 let paragraph = document.createElement('p');
 document.getElementById('noteArea').appendChild(paragraph);
-paragraph.textContent = "Ini paragraf baru";
+paragraph.textContent = "Saya sedang belajar createElement";
 console.log(paragraph.textContent);
 
 // soal 3
@@ -29,4 +29,7 @@ console.log(number.value);
 number.value = "08123456789";
 console.log(number.value);
 
-// soal 5
+// soal 5 Tombol Tambah Paragraf Otomatis  
+let article = document.getElementById('articleContainer')
+article.textContent = 'paragraf baru'
+
