@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="myDiv">Ini adalah div saya</div>
+    <span id="mySpan">INi adalah</span>
+    <br />
+    <div id="contect"></div>
+    <br />
+    <div id="container"></div>
+    <br />
+    <hr />
+
+    <input
+      type="text"
+      id="phone"
+      value="ini value default"
+      placeholder="masukan angka pertama"
+    />
+    <br />
+    <hr />
+    <input id="gender" type="text" placeholder="masukan jenis kelamin" />
+    <button onclick="console.log(document.getElementById('gender').value)">
+      submit
+    </button>
+
+    <script src="./manipulasi-dom.js"></script>
+  </body>
+</html>
