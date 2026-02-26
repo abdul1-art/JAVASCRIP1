@@ -20,8 +20,16 @@ paragraph.textContent = "Saya sedang belajar createElement";
 console.log(paragraph.textContent);
 
 // soal 3
-let input = document.getElementById('userGender');
-console.log(input.value);
+let btn = document.getElementById("showBtn");
+let inputGender = document.getElementById("userGender");
+let resultBox = document.getElementById("resultBox");
+btn.addEventListener('click', () => {
+    alert('button di click');
+    let gender = inputGender.value;
+
+    
+})
+
 
 // soal 4
 let number = document.getElementById('contactNumber');
