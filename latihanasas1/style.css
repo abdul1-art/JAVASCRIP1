@@ -1,0 +1,54 @@
+
+#box1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 1.0s;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 1.0s;
+}   
+#box3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 1.0s;
+}
+
+.mulai{
+    /* background-color: yellow; */
+    border: 1px solid black;
+}
+.success1{
+    background-color: blue;
+}
+.success2{
+    background-color: red;
+}
+.success3{
+    background-color: green;
+}
+.success4{
+    background-color: rgb(0, 0, 0);
+}
+.success5{
+    color: white;
+}
+.success6{
+    background-color: white;
+}
+.success7{
+    background-color: white;
+}
+.success8{
+    background-color: white;
+}
+#logo{
+    cursor: pointer;
+}
