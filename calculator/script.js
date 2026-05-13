@@ -104,3 +104,4 @@ function equals () {
 function clearResult () {
     document.getElementById('result').textContent = '';
 }
+
