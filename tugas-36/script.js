@@ -1,21 +1,21 @@
 // jawaban nomor 1
 
-let nilaiMTK = 91;
-let nilaiIPA = 81;
-let nilaiIPS = 91;
+let nilaiMtk = 91;
+let nilaiIpa = 81;
+let nilaiIps = 91;
 
-if (nilaiMTK >= 91 && nilaiIPA >= 91 && nilaiIPS >= 91) {
+if (nilaiMtk >= 91 && nilaiIpa >= 91 && nilaiIps >= 91) {
     console.log("andi lulus");
 } else {
     console.log("andi tidak lulus");
 }
 
 // jawaban nomor 2
-let nilaiMTK = 91;
-let nilaiIPA = 81;
-let nilaiIPS = 91;
+let nilaiMtk = 91;
+let nilaiIpa = 81;
+let nilaiIps = 91;
 
-if (nilaiMTK >= 91 || nilaiIPA >= 91 || nilaiIPS >= 91) {
+if (nilaiMtk >= 91 || nilaiIpa >= 91 || nilaiIps >= 91) {
     console.log("andi lulus");
 } else {
     console.log("andi tidak lulus");
